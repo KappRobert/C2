@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main(){
+    int numeros [] = {9967, 9889, 9523};
+    int ddd [] = {11, 16, 41};
+
+// SOCORRO PROFESSOR! 
+
+   printf("Endereço da memoria: %p, valor inserido dentro do array: %d \n", &numeros, numeros[0]);
+   printf("Endereço da memoria: %p, valor da variavel: %d \n", &ddd, ddd[2]);
+}
